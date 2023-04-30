@@ -18,7 +18,7 @@ public class BlueSquareGenerator : MonoBehaviour
 
     void GenerateBlueSquare()
     {
-        Vector2 generatePosition = new Vector2(transform.position.x, transform.position.y - generateOffset);
+        Vector2 generatePosition = new Vector2(transform.position.x, transform.position.y);
         GameObject square = Instantiate(blueSquarePrefab, generatePosition, Quaternion.identity);
         square.GetComponent<Rigidbody2D>().bodyType = RigidbodyType2D.Static;
         square.GetComponent<Collider2D>().enabled = true;

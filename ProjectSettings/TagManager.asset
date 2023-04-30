@@ -46,12 +46,12 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
-  - name: Background
-    uniqueID: 3959253603
-    locked: 0
   - name: Wall
     uniqueID: 2180682191
     locked: 0
   - name: objectives
     uniqueID: 1529395863
+    locked: 0
+  - name: Background
+    uniqueID: 3959253603
     locked: 0

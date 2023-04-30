@@ -22,11 +22,11 @@ public class WToBYC : MonoBehaviour
           isWhite = !isWhite;
             if (isWhite)
             {
-                spriteRenderer.color = Color.white;
+                spriteRenderer.color = new Color32(0x4A, 0xC5, 0xFF, 0xFF);
             }
             else
             {
-                spriteRenderer.color = Color.black;
+                spriteRenderer.color = new Color(0.42f, 0.20f, 0.45f, 1f);
             }
     }
 }
