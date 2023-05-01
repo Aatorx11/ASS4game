@@ -10,7 +10,7 @@ public class PlayerController1 : MonoBehaviour
 
     private Rigidbody2D rb;
     private bool isGrounded;
-   
+       public bool isActive = true;
     private Animator animator;
     private SpriteRenderer spriteRenderer;
     private Vector2 movement;

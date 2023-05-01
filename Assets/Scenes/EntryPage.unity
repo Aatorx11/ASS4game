@@ -2474,3 +2474,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d5efd2dc975e29643aba8d02ed84ed59, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  tutorial: {fileID: 464810034}
+  level1: {fileID: 1435460125}
+  level2: {fileID: 352867458}
+  level3: {fileID: 198657937}
+  level4: {fileID: 2001860605}
+  level5: {fileID: 474354410}
+  quit: {fileID: 1651154211}
