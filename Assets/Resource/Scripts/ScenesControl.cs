@@ -18,10 +18,10 @@ public class ScenesControl : MonoBehaviour
     {
         tutorial.onClick.AddListener(() => LoadScene("Tutorial"));
         level1.onClick.AddListener(() => LoadScene("Level1"));
-        level2.onClick.AddListener(() => LoadScene("Level2"));
-        level3.onClick.AddListener(() => LoadScene("Level3"));
-        level4.onClick.AddListener(() => LoadScene("Level4"));
-        level5.onClick.AddListener(() => LoadScene("Level5"));
+        level2.onClick.AddListener(() => LoadScene("Level5"));
+        level3.onClick.AddListener(() => LoadScene("Level4"));
+        level4.onClick.AddListener(() => LoadScene("Level3"));
+        level5.onClick.AddListener(() => LoadScene("Level2"));
         quit.onClick.AddListener(QuitGame);
     }
 

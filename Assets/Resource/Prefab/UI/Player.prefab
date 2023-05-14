@@ -144,6 +144,8 @@ MonoBehaviour:
     m_Bits: 128
   groundCheck: {fileID: 2232928429337475826}
   checkRadius: 0.5
+  isActive: 1
+  Switched: 0
 --- !u!95 &5420702589907382483
 Animator:
   serializedVersion: 5

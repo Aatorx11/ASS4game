@@ -6,7 +6,7 @@ public class IsTouchPlayerH : MonoBehaviour
 {
     public Animator animator;
     public GameObject dialogueBox; // 将文字弹窗GameObject拖到这里
-
+    public GameObject objectToActivate;
     private void Start()
     {
         dialogueBox.SetActive(false); // 隐藏文字弹窗
@@ -18,6 +18,7 @@ public class IsTouchPlayerH : MonoBehaviour
         {
             animator.SetBool("IsTouched", true);
             dialogueBox.SetActive(true); // 显示文字弹窗
+                objectToActivate.SetActive(true);
         }
     }
 
@@ -27,6 +28,7 @@ public class IsTouchPlayerH : MonoBehaviour
         {
             animator.SetBool("IsTouched", false);
             dialogueBox.SetActive(false); // 隐藏文字弹窗
+               objectToActivate.SetActive(false);
         }
     }
 }

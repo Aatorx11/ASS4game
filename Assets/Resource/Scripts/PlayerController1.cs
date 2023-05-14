@@ -38,10 +38,10 @@ public class PlayerController1 : MonoBehaviour
             InteractWithObject();
         }
     
-        if (Input.GetKeyDown(KeyCode.LeftShift))
-        {
-            ToggleSwitch();
-        }
+      if (Input.GetKeyDown(KeyCode.LeftShift) || Input.GetKeyDown(KeyCode.RightShift))
+{
+    ToggleSwitch();
+}
 
         isGrounded = Physics2D.OverlapCircle(groundCheck.position, checkRadius, groundLayer);
 

@@ -126,7 +126,7 @@ public class MainUIManagerCHANGE : MonoBehaviour
               
               
             }
-            timeTxt.text =second.x + "Min" + second.y + "Sec";
+            timeTxt.text =second.x + "Min" + second.y + "Second left";
         }
     }
 }

@@ -33,7 +33,7 @@ public class WallControlYC : MonoBehaviour
     private void Update()
     {
         // Check if the X key is pressed
-        if (Input.GetKeyDown(KeyCode.LeftShift))
+        if (Input.GetKeyDown(KeyCode.LeftShift)  ||  Input.GetKeyDown(KeyCode.RightShift))
         {
             // Ignore the first X key press
             if (isFirstXKeyPress)

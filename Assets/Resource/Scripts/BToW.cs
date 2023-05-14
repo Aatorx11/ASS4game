@@ -18,7 +18,7 @@ public class BToW : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-         if (Input.GetKeyDown(KeyCode.X))
+          if (Input.GetKeyDown(KeyCode.LeftShift) && Input.GetKeyDown(KeyCode.RightShift))
         {
             // Toggle color between black and white
           isWhite = !isWhite;
